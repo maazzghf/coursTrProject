@@ -1,5 +1,6 @@
 import Navbar from "./layouts/Navbar"
 import Hero from "./sections/Hero"
+import WhyUs from "./sections/WhyUs"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
         <main>
           <Hero />
+          <WhyUs />
         </main>
     </>
   )
