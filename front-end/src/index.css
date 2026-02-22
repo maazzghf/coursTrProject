@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #870BF4;
+  --color-text: #000000;
+  --color-background: #E0E0E0;
+  --color-second-background: #5C5C5C;
+}
+
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--color-background);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
